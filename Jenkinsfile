@@ -12,7 +12,7 @@ pipeline {
     // Ficheros de Log
     buildDiscarder logRotator(
       daysToKeepStr: '15',
-      numToKeepStr: '10
+      numToKeepStr: '10'
     )
   }
   
